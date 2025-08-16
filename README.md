@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 
 4️⃣ **Set Up Environment Variables**  
-Create a `.env` file in `config/` with your Gemini API key:  
+Create a `.env` file in `config/` with your Groq API key:  
 ```
 GROQ_API_KEY=your_api_key_here
 ```
@@ -56,6 +56,6 @@ GROQ_API_KEY=your_api_key_here
 
 Run the Streamlit app:  
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
